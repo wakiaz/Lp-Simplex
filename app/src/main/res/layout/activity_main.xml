@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mainact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:text="@string/nb_var"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/var_text"
+
+            android:layout_marginTop="44dp"
+            ads:layout_constraintTop_toBottomOf="@+id/cont_text" ads:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <EditText
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edi_var"
+            ads:layout_constraintStart_toEndOf="@+id/var_text"
+            android:layout_marginStart="8dp" ads:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            ads:layout_constraintHorizontal_bias="0.09" android:layout_marginTop="20dp"
+            ads:layout_constraintTop_toBottomOf="@+id/edi_cont"/>
+
+
+    <TextView
+            android:text="@string/nb_cont"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cont_text"
+
+            android:layout_marginTop="44dp"
+            ads:layout_constraintTop_toTopOf="parent" ads:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <EditText
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edi_cont"
+            android:layout_marginTop="28dp"
+            ads:layout_constraintTop_toTopOf="parent" ads:layout_constraintStart_toEndOf="@+id/cont_text"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp" ads:layout_constraintEnd_toEndOf="parent"
+            ads:layout_constraintHorizontal_bias="0.09"/>
+
+
+    <Button
+            android:text="@string/next"
+            android:background="#6200EE"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_butt"
+            android:layout_marginEnd="50dp"
+            ads:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="50dp"
+            ads:layout_constraintStart_toStartOf="parent" android:layout_marginTop="80dp"
+            ads:layout_constraintTop_toBottomOf="@+id/var_text"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

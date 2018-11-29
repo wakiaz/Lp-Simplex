@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RO SIMPLEX</string>
+    <string name="nb_var">Enterz le nombre de variables</string>
+    <string name="nb_cont">Enterz le nombre de contraints</string>
+    <string name="m">m =</string>
+    <string name="n">n =</string>
+    <string name="next">Next</string>
+    <string name="c1">X1</string>
+    <string name="x11">X1</string>
+    <string name="run_but">Resoudre</string>
+
+
+    <!-- my id-->
+    <string name="banner_ad_unit_id">ca-app-pub-3876285450146111/9574471102</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nosol">La solution n\'est pa bornee</string>
+    <string name="finresultat">Final Result</string>
+    <string name="twophase">Clicker ici pour la methode de deux phases</string>
+    <string name="xb">Xb</string>
+    <string name="cb">Cb</string>
+    <string name="b">b</string>
+    <string name="iterationnb">Iteration</string>
+    <string name="MinTitle">Min Cx = -Max -Cx</string>
+    <string name="nosolphase">La solution n\'existe pas!!</string>
+    <!-- test id-->
+    <!--string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string-->
+
+</resources>
